@@ -16,7 +16,7 @@ apply plugin: 'maven'
 
 dependencies {
     testCompile 'junit:junit:4.12'
-    compile 'io.swagger:swagger-codegen:2.2.1'
+    compile 'io.swagger:swagger-codegen:2.2.2-SNAPSHOT'
     compile gradleApi()
     compile localGroovy()
 }
@@ -35,7 +35,7 @@ uploadArchives {
     }
 }
 
-version = '1.6.3'
+version = '1.6.3-SNAPSHOT'
 group = 'org.detoeuf'
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
